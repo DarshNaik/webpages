@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="main.js"></script>
+
+<style>
+table {
+  display: inline-block;
+  align-self: center;
+  border-collapse: collapse;
+  width:100%;
+}
+
+td, th  {
+    border: 1px solid #0ddddd;
+    padding:5px;
+
+}
+
+th:first-child,td:first-child{
+  width: 100px;
+  text-align: center;
+}
+
+tr:nth-child(even)  {
+  background-color: #dddddd
+}
+
+.btn {
+  display: block;
+  margin: 3px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+  <form action="#">
+    <table id="tab">
+      <col width="10%">
+      <col width="25%">
+      <col width="20%">
+      <col width="10%">
+      <col width="5%">
+      <col width="30%">
+      <thead>
+        <th>Check</th>
+        <th>Items</th>
+        <th>Price</th>
+        <th>Click</th>
+        <th>Check</th>
+        <th>List</th>
+      </thead>
+
+      <tr>
+        <td><input type="checkbox" class="chk" id="1" value="155"></td>
+        <td>Apple washington</td>
+        <td>₹ 155</td>
+        <td rowspan="9" style="text-align:center;">
+          <button type="button" onclick="checklist()" name="check" class="btn">>></button>
+          <button type="button" onclick="rset()" name="remove" class="btn"><<</button>
+        </td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="2" value=160></td>
+        <td>Apricot</td>
+        <td>₹ 160</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="3"  value=52></td>
+        <td>Banana</td>
+        <td>₹ 52</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" value=80 id="4"></td>
+        <td>Grapes (Green)</td>
+        <td>₹ 80</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" value=57 id="5"></td>
+        <td>Mango</td>
+        <td>₹ 57</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" value=352 id="6"></td>
+        <td>Orange</td>
+        <td>₹ 352</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" value=44 id="7"></td>
+        <td>Pineapple</td>
+        <td>₹ 44</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" value=95 id="8"></td>
+        <td>Pomegranate</td>
+        <td>₹ 95</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" value=328 id="9"></td>
+        <td>Watermelon</td>
+        <td>₹ 328</td>
+        <td></td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="5" style="text-align:right;">TOTAL :</td>
+        <td id="total">0</td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
