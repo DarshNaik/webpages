@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+
+<script type="text/javascript" src="main.js"></script>
+
+<title>Request</title>
+</head>
+<body>
+<div class="container">
+      <div class="ontaine1">
+          <div class="inline">
+              <img class="img m_r" src="images/idea.png" alt="LOGO" title="Idea logo">
+              <div class="firewall f_r">
+                  <div style="font-size:18px;"><strong>Firewall</strong></div>
+                  <div>Connectivity makes easy</div>
+              </div>
+              <!--<div class="f_r" style="float:right">
+                Request Number
+              </div>-->
+          </div>
+            <div class="blue_head">
+            <div class="v_l"></div>
+            <div class="note">Network service opertator</div>
+          </div>
+
+          <div class="rqst">
+              <div class="yellow_line"></div>
+
+              <div style="height:30px"></div>
+              <hr style="margin-left:2%;margin-right:2%;border:solid 0.5px light grey;">
+
+              <div style="padding:0 15px;">
+                <form action="#">
+                  <div class="row">
+                      <div class="col-lg-3">
+                          <label class="bloc">Application Name</label>
+                          <input type="text" title="Application name"></input>
+
+                          <label class="bloc">Form Date</label>
+                          <input type="text" title="Date" placeholder="DD/MM/YYYY"></input>
+                          <span class="glyphicon glyphicon-calendar"></span>
+                      </div>
+                      <div class="col-lg-3">
+                        <label class="block">Type of Change</label>
+                        <input type="text" title="Type of Change"></input>
+
+                        <!--<div class="selectWrapper">
+                          <select class="selectBox">
+                          <option>Option 1</option>
+                          <option>Option 2</option>
+                          <option>Option 3</option>
+                          <option>Option 4</option>
+                        </select>
+                      </div>-->
+
+                        <label class="bloc">To Date</label>
+                        <input type="text" title="Date" placeholder="DD/MM/YYYY"></input>
+                        <span class="glyphicon glyphicon-calendar"></span>
+                      </div>
+                      <div class="col-lg-3">
+                        <label class="bloc">Nature of Policy</label>
+                        <input type="text" title="Application name"></input>
+                      </div>
+                      <div class="col-lg-3">
+                        <label class="bloc">Requester</label>
+                        <input type="text" title="Application name"></input>
+                      </div>
+                  </div>
+                </form>
+            </div>
+          </div>
+          <div class="rqst" style="padding:2px;">
+              <div style="background-color:#D6D6FF;padding:2px;font-size:large;padding-left:10px;">
+                  <img src="images/firewall.png" class="img" style="height:20px;">
+                  &nbspFirewall access
+              </div>
+              <h4>REQUEST 01</h4>
+
+              <form action="#">
+              <div class="container-fluid">
+                  <div class="row" style="padding-bottom:10px" >
+                      <div class="col-lg-4 col-md-4 col-xs-4 p_l">
+
+                          <div id="disp1" class="yellow">
+                              
+                          </div>
+
+                          <div style="background-color:#D6D6FF;padding:2px;margin-bottom:10px">Source IP</div>
+                            <div style="padding:0 8px;">
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio6" checked>IP
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio6">Subnet
+                              </label>
+                              <label class="radio-inline disabled">
+                                <input type="radio" name="optradio6" disabled>All Idea
+                              </label>
+                              <hr style="margin-left:2%;margin-right:2%;border:solid 1px #E3E3E3;">
+                              <label class="radio-inline" >
+                                <input type="radio" name="optradio4" checked>Single
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio4">IP Range
+                              </label>
+
+                              <br style="margin-bottom:3px;">
+
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio3" checked>10
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio3">172
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio3">192
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio3">Public IP
+                              </label>
+
+                              <br><br>IP<br>
+                              <input type="text" placeholder="172.20.84.37">
+                              <br>
+                              <button type="button" class="btn btn-primary">Add IP</button>
+                            </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-xs-4 p_l">
+                          <div style="background-color:#D6D6FF;padding:2px;margin-bottom:10px">Source IP</div>
+                            <div style="padding:0 8px;">
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio1" checked>IP
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio1">Subnet
+                              </label>
+                              <label class="radio-inline disabled">
+                                <input type="radio" name="optradio1" disabled>All Idea
+                              </label>
+                              <hr style="margin-left:2%;margin-right:2%;border:solid 1px #E3E3E3;">
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio5">Single
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio5" checked>IP Range
+                              </label>
+
+                              <br>
+
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio" checked>10
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio">172
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio">192
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio">Public IP
+                              </label>
+
+                              <br><br>IP Range<br>
+                              <input type="text" placeholder="172.20.84.37" style="width:45%">
+                              &nbsp To &nbsp
+                              <input type="text" placeholder="172.20.84.37" style="width:44%">
+                              <br>
+                              <button type="button" class="btn btn-primary">Add IP</button>
+                            </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-xs-4 p_l">
+                          <div style="background-color:#D6D6FF;padding:2px;margin-bottom:10px">Source input</div>
+                            <div style="padding:0 8px;">
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio2" checked>Port
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio2">Port-Range
+                              </label>
+                              <hr style="margin-left:2%;margin-right:2%;border:solid 1px #E3E3E3;">
+                              <input type="text" placeholder="123456">
+                            </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="bidirection">
+                  <input type="checkbox" style="margin-right:5px;">Bidirectional
+              </div>
+              <div class="bidirection">
+                  <button type="button" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-plus"></span>
+                    ADD ANOTHER REQUEST</button>
+
+                  <button type="button" class="btn btn-primary" style="float:right;margin-right:5px;">
+                      <span class="glyphicon glyphicon-remove"></span>
+                      CANCEL
+                  </button>
+                  <button type="button" class="btn btn-primary" onclick="submited()"  style="float:right;margin-right:10px;">
+                      <span class="glyphicon glyphicon-check"></span>
+                      SUBMIT
+                  </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="footer">
+              <div class="bottom">
+                  <div class="foot" style="float:left;margin-left:10px;">Firewall</div>
+                  <div style="float:right;margin-right:10px;"><img src="images/logo.png" class="img" style="height:40px;"></div>
+              </div>
+              <div style="height:60px;padding:10px;background-color:#1B2160 ;vertical-align: middle;">
+                <div style="float:right;color:#FFFFFF">Copyright &copy 2017 !dea Cellular Ltd.
+              </div>
+          </div>
+      </div>
+</div>
+</body>
+</html>
